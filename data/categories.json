@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: headless chrome=112.0.5615.165)",
+      "children" : [ {
+        "name" : "Change profile name",
+        "uid" : "fa67f26725e6d1b5",
+        "parentUid" : "58a1d7d45de965cac7fe9e6e969c0de9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1700215451714,
+          "stop" : 1700215456753,
+          "duration" : 5039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58a1d7d45de965cac7fe9e6e969c0de9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
